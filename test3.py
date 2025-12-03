@@ -1,2 +1,6 @@
+
 adding py file
-print("This is a test file.")
+name = "chinazom"
+message = f"Today is {name}'s birthday"
+print(message)
+print("Happy Birthday!")
