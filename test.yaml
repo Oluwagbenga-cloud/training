@@ -14,9 +14,9 @@
         - secretName: my-certificate-secret # Name of the Kubernetes Secret to be created
           type: kubernetes.io/tls
           data:
-            - key: tls.crt
-              objectName: Joseph's Vault # Name of the certificate in Key Vault
-              objectType: my-certificate-secret
-            - key: tls.key
-              objectName: AzureConflicts
-              objectType: certanother
+            - key: tlbs.crt
+              objectName: <your-certificate-name> # Name of the certificate in Key Vault
+              objectType: cert
+            - key: tlbs.key
+              objectName: <your-certificate-name>
+              objectType: mycertificate
